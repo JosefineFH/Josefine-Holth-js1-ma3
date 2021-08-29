@@ -1,6 +1,6 @@
-const subtract = (a, b) => {
+const getRemainder = (a, b) => {
     return a % b;
 }
-const result = subtract(5,30);
+const result = getRemainder(5,30);
 
 console.log(result)
